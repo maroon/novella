@@ -1,5 +1,12 @@
-*.gem
+#
+# Jekyll
+#
 .bundle
 .sass-cache
 _site
 Gemfile.lock
+
+#
+# VIM
+#
+*.swp
