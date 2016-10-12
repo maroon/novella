@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ryan Maroon"]
   spec.email         = ["ryan.maroon@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
+  spec.summary       = %q{Minimalistic theme with colors from Solarized.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
