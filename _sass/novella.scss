@@ -1,0 +1,18 @@
+// Import color scheme partial.
+@import "novella/solarized";
+
+$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size: 1em;
+$font-weight: 400;
+$line-height: 1.5;
+
+$text-color: $dark-base-color;
+$background-color: $light-base-color-3;
+$highlight-color: $light-base-color-2;
+
+$content-width: 50em;
+$spacing-unit: 2em;
+
+$small-screen: 40em;
+$medium-screen: 50em;
+$large-screen: 70em;
