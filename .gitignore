@@ -9,4 +9,4 @@ Gemfile.lock
 #
 # VIM
 #
-*.swp
+*.sw[po]
