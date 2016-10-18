@@ -1,0 +1,37 @@
+body {
+  font: $font-weight #{$font-size}/#{$line-height} $font-family;
+  color: $text-color;
+  background-color: $background-color;
+  font-kerning: normal;
+}
+
+a {
+  color: $text-color;
+  padding: 0.125em;
+  text-decoration: underline;
+
+  &:hover {
+    color: $background-color;
+    background-color: $text-color;
+  }
+}
+
+pre, code {
+  background-color: $highlight-color;
+  border: 0.125em solid $text-color;
+  border-radius: 0.375em;
+}
+
+pre {
+  padding: 0.5em;
+  margin: 1.5em;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+  }
+}
+
+code {
+  padding: 0.25em;
+}
