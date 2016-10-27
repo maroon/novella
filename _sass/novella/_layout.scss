@@ -6,13 +6,15 @@
 }
 
 .site-header {
-  text-decoration: none;
-
-  @extend %heading-1;
-
   > .wrapper {
     text-align: center;
   }
+}
+
+.site-title {
+  text-decoration: none;
+
+  @extend %heading-1;
 }
 
 .site-divider {
