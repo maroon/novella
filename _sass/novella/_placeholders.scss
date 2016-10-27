@@ -11,7 +11,8 @@
 
 @for $index from 1 through 6 {
   %heading-#{$index} {
-    font-size: calc(#{$font-size} + (90% - (13% * #{$index})));
+    font-size: calc(#{$font-size} + (100% - (15% * #{$index})));
+    font-weight: $font-weight;
 
     @include vertical-spacing;
   }
