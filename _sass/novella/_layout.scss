@@ -1,0 +1,29 @@
+.wrapper {
+  max-width: $content-width;
+
+  @extend %center-margins;
+  @include vertical-spacing;
+}
+
+.site-header {
+  text-decoration: none;
+
+  @extend %heading-1;
+
+  > .wrapper {
+    text-align: center;
+  }
+}
+
+.site-divider {
+  background-color: $dark-base-color;
+
+  width: 10em;
+  height: 0.125em;
+
+  @extend %center-margins;
+}
+
+.page-content {
+  @include vertical-spacing(1);
+}
