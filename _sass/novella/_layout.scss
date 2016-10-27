@@ -2,10 +2,12 @@
   max-width: $content-width;
 
   @extend %center-margins;
+
+  @include horizontal-padding;
   @include vertical-spacing;
 }
 
-.site-header {
+.site-header, .page-header {
   > .wrapper {
     text-align: center;
   }
@@ -15,6 +17,10 @@
   text-decoration: none;
 
   @extend %heading-1;
+}
+
+.small-title {
+  @extend %heading-6;
 }
 
 .site-divider {
@@ -28,4 +34,19 @@
 
 .page-content {
   @include vertical-spacing(1);
+}
+
+.posts {
+  list-style: none;
+  text-align: center;
+}
+
+.post-link {
+  @extend %heading-5;
+}
+
+.post-date {
+  display: block;
+
+  color: $faded-color;
 }
