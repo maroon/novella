@@ -21,4 +21,6 @@ $large-screen: 70em;
 @import
   "novella/reset",
   "novella/mixins",
-  "novella/base";
+  "novella/placeholders",
+  "novella/base",
+  "novella/layout";
