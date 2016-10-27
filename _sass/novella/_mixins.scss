@@ -3,3 +3,8 @@
     @content
   }
 }
+
+@mixin vertical-spacing($divisor: 4) {
+  margin-top: $spacing-unit / $divisor;
+  margin-bottom: $spacing-unit / $divisor;
+}
