@@ -4,6 +4,11 @@
   clear: both;
 }
 
+%center-margins {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @for $index from 1 through 6 {
   %heading-#{$index} {
     font-size: calc(#{$font-size} + (90% - (13% * #{$index})));
