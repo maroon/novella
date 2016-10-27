@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    <a class="site-title {% if page.is_post %} small-title {% endif %}" href="{{ "/" | relative_url }}">{{ site.title }}</a>
   </div>
 </header>
 
