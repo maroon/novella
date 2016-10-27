@@ -5,6 +5,12 @@ body {
   font-kerning: normal;
 }
 
+@for $index from 1 through 6 {
+  h#{$index} {
+    @extend %heading-#{$index};
+  }
+}
+
 a {
   color: $text-color;
   padding: 0.125em;
