@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ryan Maroon"]
   spec.email         = ["ryan.maroon@gmail.com"]
 
-  spec.summary       = %q{Minimalistic theme with colors from Solarized.}
+  spec.summary       = %q{Minimalistic theme for Jekyll with colors from Solarized.}
   spec.homepage      = "https://github.com/maroon/novella"
   spec.license       = "MIT"
 
