@@ -14,7 +14,7 @@
 }
 
 .site-footer {
-  max-width: calc(#{$content-width} / 1.25);
+  max-width: $content-width;
 
   @extend %center-margins;
 
