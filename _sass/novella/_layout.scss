@@ -13,6 +13,14 @@
   }
 }
 
+.site-footer {
+  max-width: calc(#{$content-width} / 1.25);
+
+  @extend %center-margins;
+
+  @include vertical-spacing(1);
+}
+
 .site-title {
   text-decoration: none;
 
@@ -49,4 +57,44 @@
   display: block;
 
   color: $faded-color;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-link {
+  text-decoration: none;
+}
+
+.social-svg {
+  display: inline-block;
+  vertical-align: middle;
+
+  > svg {
+    margin-right: 0.25em;
+    width: 1.15em;
+    height: 1.15em;
+  }
+}
+
+.social-text {
+  text-decoration: none;
+}
+
+.footer-column-wrapper {
+  display: table;
+
+  @include vertical-spacing(1);
+}
+
+.footer-column {
+  display: table-cell;
+  width: 50%;
+
+  @include horizontal-padding(2);
+}
+
+.footer-social-column {
+  width: 35%;
 }
