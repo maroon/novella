@@ -11,8 +11,11 @@
 
 @for $index from 1 through 6 {
   %heading-#{$index} {
+    font-family: "Lato", #{$font-family};
     font-size: calc(#{$font-size} + (100% - (15% * #{$index})));
     font-weight: $font-weight;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 
     @include vertical-spacing;
   }
