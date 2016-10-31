@@ -10,5 +10,18 @@
 
 <footer class="site-footer">
   <div class="wrapper">
+    <div class="footer-column-wrapper">
+      <div class="footer-column">
+        {{ site.description }}
+      </div>
+      <div class="footer-column footer-social-column">
+        <ul class="social-list">
+          <li>{% include social_rss.html %}</li>
+          {% if site.social.email %}<li>{% include social_email.html %}</li>{% endif %}
+          {% if site.social.github %}<li>{% include social_github.html %}</li>{% endif %}
+          {% if site.social.twitter %}<li>{% include social_twitter.html %}</li>{% endif %}
+        </ul>
+      </div>
+    </div>
   </div>
 </footer>
