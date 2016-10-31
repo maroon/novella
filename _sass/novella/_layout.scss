@@ -98,3 +98,14 @@
 .footer-social-column {
   width: 35%;
 }
+
+@include media-query($small-screen) {
+  .footer-column, .footer-social-column {
+    display: block;
+    width: auto;
+
+    &:not(:first-child) {
+      @include vertical-spacing(1);
+    }
+  }
+}
