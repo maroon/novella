@@ -84,6 +84,7 @@
 
 .footer-column-wrapper {
   display: table;
+  width: 100%;
 
   @include vertical-spacing(1);
 }
