@@ -9,6 +9,11 @@
   padding-right: $spacing-unit / $divisor;
 }
 
+@mixin horizontal-spacing($divisor: 4) {
+  margin-left: $spacing-unit / $divisor;
+  margin-right: $spacing-unit / $divisor;
+}
+
 @mixin vertical-spacing($divisor: 4) {
   margin-top: $spacing-unit / $divisor;
   margin-bottom: $spacing-unit / $divisor;
