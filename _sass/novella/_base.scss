@@ -30,7 +30,19 @@ p {
   text-indent: 1em;
 }
 
-ul, ol {
+blockquote {
+  color: $faded-color;
+  border-left: 0.25em solid $dark-base-color;
+
+  @include horizontal-padding(2);
+  @include horizontal-spacing(2);
+
+  > p {
+    text-indent: 0;
+  }
+}
+
+ul, ol, dl {
   @include horizontal-padding(0.8);
 }
 
