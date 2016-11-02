@@ -11,8 +11,8 @@
 <footer class="site-footer">
   <div class="wrapper">
     <div class="footer-column-wrapper">
-      <div class="footer-column">
-        {{ site.description }}
+      <div class="footer-column footer-site-description">
+        {{ site.description | markdownify }}
       </div>
       <div class="footer-column footer-social-column">
         <ul class="social-list">
