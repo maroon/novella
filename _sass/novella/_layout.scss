@@ -99,6 +99,14 @@
   @include horizontal-padding(2);
 }
 
+.footer-site-description {
+  text-indent: inherit;
+
+  > p {
+    text-indent: inherit;
+  }
+}
+
 .footer-social-column {
   width: 35%;
 }
