@@ -1,13 +1,13 @@
-#
+# System
+.DS_Store
+.ignore
+
 # Jekyll
-#
 .bundle
 .sass-cache
 _site
 Gemfile.lock
 *.gem
 
-#
 # VIM
-#
 *.sw[po]
