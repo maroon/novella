@@ -47,6 +47,10 @@
 .posts {
   list-style: none;
   text-align: center;
+
+  > li {
+    @include vertical-spacing(2);
+  }
 }
 
 .post-link {
